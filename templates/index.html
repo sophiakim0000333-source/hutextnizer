@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HuTextnizer - Text to Humanizer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #1c92d2, #f2fcfe);
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #003366;
+    }
+    form {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+      display: inline-block;
+      width: 400px;
+    }
+    textarea {
+      width: 100%;
+      height: 150px;
+      border-radius: 10px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      font-size: 14px;
+      resize: none;
+      outline: none;
+    }
+    button {
+      background: #1c92d2;
+      color: white;
+      border: none;
+      padding: 12px 25px;
+      margin-top: 15px;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #155a8a;
+    }
+  </style>
+</head>
+<body>
+  <h1>HuTextnizer</h1>
+  <form action="/convert" method="POST">
+    <textarea name="user_text" placeholder="Paste or write your text here..." required></textarea>
+    <br>
+    <button type="submit">Humanize Text</button>
+  </form>
+</body>
+</html>

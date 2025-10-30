@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pricing | SRHutextnizer</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      background: #f7faff;
+      margin: 0;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #fff;
+      padding: 15px 50px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    }
+    .logo {
+      color: #0078ff;
+      font-weight: 600;
+      font-size: 1.5rem;
+    }
+    .nav-links a {
+      margin-left: 30px;
+      text-decoration: none;
+      color: #333;
+      transition: 0.3s;
+    }
+    .nav-links a:hover {
+      color: #0078ff;
+    }
+    .pricing-container {
+      max-width: 900px;
+      margin: 60px auto;
+      text-align: center;
+    }
+    .plans {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+    .plan {
+      background: #fff;
+      border-radius: 16px;
+      box-shadow: 0 0 15px rgba(0, 120, 255, 0.1);
+      padding: 30px;
+      width: 260px;
+    }
+    .plan h2 {
+      color: #0078ff;
+    }
+    .price {
+      font-size: 22px;
+      margin: 10px 0;
+      color: #222;
+    }
+    button {
+      background: #0078ff;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 10px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #005fcc;
+    }
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      padding: 20px;
+      background: #fff;
+      color: #555;
+      border-top: 1px solid #eee;
+    }
+    footer span {
+      color: #0078ff;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="logo">SRHutextnizer</div>
+    <div class="nav-links">
+      <a href="/">Home</a>
+      <a href="/pricing">Pricing</a>
+      <a href="/about">About</a>
+      <a href="/login">Login</a>
+    </div>
+  </nav>
+
+  <div class="pricing-container">
+    <h1>Choose Your Plan</h1>
+    <div class="plans">
+      <div class="plan">
+        <h2>Free Plan</h2>
+        <p class="price">$0 / month</p>
+        <p>Limit: 10,000 words per day</p>
+        <button>Start Free</button>
+      </div>
+      <div class="plan">
+        <h2>Monthly Plan</h2>
+        <p class="price">$12 / month</p>
+        <p>Unlimited word access</p>
+        <button>Subscribe</button>
+      </div>
+      <div class="plan">
+        <h2>Yearly Plan</h2>
+        <p class="price">$90 / year</p>
+        <p>Unlimited word access</p>
+        <button>Subscribe</button>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 <span>SRHutextnizer</span> — All Rights Reserved
+  </footer>
+</body>
+</html>

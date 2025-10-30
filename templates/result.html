@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HuTextnizer Result</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      text-align: center;
+      padding: 40px;
+    }
+    .box {
+      background: white;
+      padding: 25px;
+      border-radius: 15px;
+      box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+      display: inline-block;
+      width: 500px;
+    }
+    pre {
+      text-align: left;
+      white-space: pre-wrap;
+      word-wrap: break-word;
+      background: #f9f9f9;
+      border-left: 4px solid #1c92d2;
+      padding: 10px;
+    }
+    a {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: white;
+      background: #1c92d2;
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Humanized Text</h1>
+  <div class="box">
+    <h3>Original Text:</h3>
+    <pre>{{ original_text }}</pre>
+    <h3>Humanized Version:</h3>
+    <pre>{{ humanized_text }}</pre>
+  </div>
+  <a href="/">⬅ Go Back</a>
+</body>
+</html>
