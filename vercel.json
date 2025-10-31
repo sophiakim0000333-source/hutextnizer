@@ -4,6 +4,5 @@
   ],
   "routes": [
     { "src": "/(.*)", "dest": "app.py" }
-  ],
-  "alias": ["srhutextnizer.vercel.app"]
+  ]
 }
